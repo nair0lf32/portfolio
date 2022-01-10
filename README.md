@@ -9,12 +9,13 @@ Technologies used:
 - css ( tailwind css )
 - github pages
 
+<!--
+
 Thanks to:
 
 - [that guy](https://www.freecodecamp.org/news/build-portfolio-website-react/)
 - [that guy](https://javascript.plainenglish.io/light-and-dark-mode-in-react-web-application-with-tailwind-css-89674496b942)
 - [that guy](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f/)
-<!--
 
 # Getting Started with Create React App
 
