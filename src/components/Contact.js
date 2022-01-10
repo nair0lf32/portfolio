@@ -1,10 +1,25 @@
 import React from "react";
+import { MailIcon } from "@heroicons/react/solid";
 
 export default function Contact() {
     return (
         <section id="contact" className="relative">
+
+            <div className="container px-5 py-10 mx-auto">
+                <div className="text-center mb-20">
+                    <MailIcon className="w-10 inline-block mb-4" />
+                    <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
+                        Contact
+                    </h1>
+                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                        Hey! Wanna get in touch? You can reach me at the following email address.
+                    </p>
+                </div>
+            </div>
+
             <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
                 <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+
                     <iframe
                         width="100%"
                         height="100%"
@@ -40,6 +55,8 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+
+
                 <form
                     netlify
                     name="contact"
@@ -92,7 +109,6 @@ export default function Contact() {
                     </button>
                 </form>
             </div>
-            );
         </section>
     );
 }
