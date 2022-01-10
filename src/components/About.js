@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function About() {
     return (
         <section id="about">
@@ -28,15 +29,14 @@ export default function About() {
                     </div>
                 </div>
 
-
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-50">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-40">
                     <img width="300"
                         height="300"
-                        className="object-cover object-center rounded border-yellow-300 hover:transition-all duration-500 ease-in-out transform hover:opacity-80"
+                        className="object-cover object-center "
                         alt="hero"
-                        src='./Assets/self.png'
-                        onMouseOver={e => (e.currentTarget.src = "/Assets/self2.png")}
-                        onMouseOut={e => (e.currentTarget.src = "/Assets/self.png")}
+                        src='./assets/self.png'
+                        onMouseOver={e => (e.currentTarget.src = './Assets/self2.png')}
+                        onMouseOut={e => (e.currentTarget.src = './Assets/self.png')}
                     />
                 </div>
             </div>
