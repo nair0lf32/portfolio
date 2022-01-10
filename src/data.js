@@ -1,38 +1,48 @@
 
 export const projects = [
     {
-        title: "React Reserve",
-        subtitle: "MERN Stack",
+        title: "Nairolf32",
+        subtitle: "My personal website",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-1.gif",
-        link: "https://reactbootcamp.com",
+            "My first github page using vanilla javascript, boostrap with some jquerry and some custom css",
+        image: "https://nair0lf32.github.io/assets/img/avataaars.svg",
+        link: "https://nair0lf32.github.io/",
     },
     {
-        title: "React Tracks",
-        subtitle: "React and Python",
+        title: "Medical Cheatsheets",
+        subtitle: "medical pathologies articles",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-2.gif",
-        link: "https://reedbarger.com",
+            "A simple jekyll blog with articles about medical pathologies. the blog is writen in french",
+        image: "https://nair0lf32.github.io/MedicalCheatSheets/assets/images/MCS.png?v=",
+        link: "https://nair0lf32.github.io/MedicalCheatSheets/",
     },
     {
-        title: "DevChat",
-        subtitle: "React and Firebase",
+        title: "CTF writeups",
+        subtitle: "my ctf writeups and walkthroughs",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-3.gif",
-        link: "https://jsbootcamp.com",
+            "A collection of writeups and walkthroughs for ctf challenges I did during my time learning cybersecurity",
+        image: "https://github.com/nair0lf32/ctfs-writeups/raw/master/pictures/dark_logo.png",
+        link: "https://github.com/nair0lf32/ctfs-writeups",
     },
-    {
-        title: "Epic Todo App",
-        subtitle: "React Hooks",
-        description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./project-4.gif",
-        link: "https://pythonbootcamp.com",
-    },
+
 ];
 
 
-export const skills = ["javascript", "react"];
+export const skills = [
+    {
+        name: "Javascript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    },
+    {
+        name: "React Js",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    },
+    {
+        name: "Python",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    },
+    {
+        name: "Java",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    },
+];
