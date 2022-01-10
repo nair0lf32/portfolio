@@ -3,9 +3,9 @@ import Toggle from './ThemeToggle';
 
 export default function Navbar() {
     return (
-        <header className="md:sticky top-0 bg-black text-white static z-40">
+        <header className="md:sticky top-0 bg-black text-white static z-30">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-                <a className="title-font font-big mb-4 md:mb-0">
+                <a href="#about" className="title-font font-big mb-4 md:mb-0">
                     <a href="#about" className="ml-3 text-xl">
                         EDEMESSI Florian
                     </a>
