@@ -34,9 +34,9 @@ export default function About() {
                         height="300"
                         className="object-cover object-center "
                         alt="hero"
-                        src='./assets/self.png'
-                        onMouseOver={e => (e.currentTarget.src = './Assets/self2.png')}
-                        onMouseOut={e => (e.currentTarget.src = './Assets/self.png')}
+                        src='https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self.png?raw=true'
+                        onMouseOver={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self2.png?raw=true')}
+                        onMouseOut={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self.png?raw=true')}
                     />
                 </div>
             </div>
