@@ -29,7 +29,7 @@ export default function About() {
                 </div>
 
 
-                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">
+                <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 z-50">
                     <img width="300"
                         height="300"
                         className="object-cover object-center rounded border-yellow-300 hover:transition-all duration-500 ease-in-out transform hover:opacity-80"
