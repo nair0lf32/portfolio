@@ -1,10 +1,11 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import 'animate.css';
 
 export default function Projects() {
     return (
-        <section id="projects" className="body-font">
+        <section id="projects" className="body-font" class="animate__animated animate__fadeIn">
             <div className="container px-5 py-10 mx-auto text-center lg:px-40">
                 <div className="flex flex-col w-full mb-20">
                     <CodeIcon className="mx-auto inline-block w-10 mb-4" />
