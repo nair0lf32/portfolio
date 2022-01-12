@@ -12,7 +12,7 @@ export default function Projects() {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
                         Projects
                     </h1>
-                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+                    <p className="lg:w-2/3 mx-auto leading-relaxed text-base sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
                         Here are some of the projects I have worked on. That's what I did so far.
                         I am still working on some, but so far that is what I can show. Most of my work is on my GitHub.
                         I am still learning and expect to add more projects in the future.
