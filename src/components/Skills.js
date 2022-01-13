@@ -12,7 +12,7 @@ export default function Skills() {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
                         Skills and Technologies
                     </h1>
-                    <p className="text-base sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    <p className="sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
                         Here are the technologies and tools I am confortable with. What I use to build my projects,
                         And what I am passionate about.
                     </p>

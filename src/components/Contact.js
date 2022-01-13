@@ -11,7 +11,7 @@ export default function Contact() {
                     <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
                         Contact
                     </h1>
-                    <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
+                    <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
                         Hey! Wanna get in touch? You can find me at those places.
                     </p>
                 </div>
