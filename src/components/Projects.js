@@ -23,11 +23,11 @@ export default function Projects() {
                         <a
                             href={project.link}
                             key={project.image}
-                            className="sm:w-1/2 p-4 ">
-                            <div className="flex relative w-5/6 h-full">
+                            className="sm:w-1/2 p-4">
+                            <div className="flex relative w-full h-full place-objects-center">
                                 <img
                                     alt="gallery"
-                                    className="absolute inset-0 w-full h-full object-cover object-center border-2 border-yellow-400 rounded-lg"
+                                    className="absolute inset-0 w-full h-full object-contain object-center border-2 border-yellow-400 rounded-lg bg-black"
                                     src={project.image}
                                 />
                                 <div className="px-4 py-10 relative  w-full h-full border-4 border-yellow-400 bg-black opacity-0 hover:opacity-100 rounded-lg">
@@ -46,4 +46,9 @@ export default function Projects() {
             </div>
         </section>
     );
+
+
+
+
+
 }
