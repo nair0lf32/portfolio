@@ -39,8 +39,8 @@ export default function About() {
                         //serving from remote then 
                         //This is more a workaround than a fix...so TODO: fix this later
                         src='https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self.png?raw=true'
-                        onMouseOver={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self2.png?raw=true')}
-                        onMouseOut={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self.png?raw=true')}
+                        onMouseEnter={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self2.png?raw=true')}
+                        onMouseLeave={e => (e.currentTarget.src = 'https://github.com/nair0lf32/portfolio/blob/master/public/Assets/self.png?raw=true')}
                     />
                 </div>
             </div>
