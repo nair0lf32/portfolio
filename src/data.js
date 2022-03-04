@@ -30,6 +30,10 @@ export const projects = [
 
 export const skills = [
     {
+        name: "Linux",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg",
+    },
+    {
         name: "Javascript",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     },
@@ -42,7 +46,20 @@ export const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     },
     {
+        name: "Php",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    },
+    {
+        name: "Golang",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    },
+    {
         name: "Java",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
     },
+    {
+        name: "Flutter",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    },
 ];
+
