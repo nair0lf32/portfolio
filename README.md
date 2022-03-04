@@ -22,6 +22,8 @@ Thanks to:
 
 # TODO:
 - Look into lazy loading or precache for the images
+- Fix hover on image effect 
+- Dont forget to deploy the website (updates)
 
 # Getting Started with Create React App
 
