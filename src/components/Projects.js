@@ -17,6 +17,8 @@ export default function Projects() {
                             Here are some of the projects I have worked on. That's what I did so far.
                             I am still working on some, but so far that is what I can show. Most of my work is on my GitHub.
                             I am still learning and expect to add more projects in the future.
+
+                            You can click on any card below to check them out!
                         </p>
                     </div>
                 </Fade>
