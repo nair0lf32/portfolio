@@ -20,6 +20,9 @@ Thanks to:
 - [those icons](https://devicon.dev/)
 - [those guys](https://animate.style/)
 
+# TODO:
+- Look into lazy loading or precache for the images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
