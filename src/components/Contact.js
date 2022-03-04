@@ -12,10 +12,9 @@ export default function Contact() {
                         Contact
                     </h1>
                     <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
-                        Hey! Wanna get in touch? You can find me at those places.
+                        Hey! Wanna get in touch? You can find me at the places below.
                     </p>
                 </div>
-
 
 
                 <div className="container px-5 py-10 mx-auto place-content-center text-center sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
