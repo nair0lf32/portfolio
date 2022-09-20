@@ -23,16 +23,16 @@ export default function Projects() {
                     </div>
                 </Fade>
                 <Fade>
-                    <div className="flex flex-wrap -m-4">
+                    <div className="flex flex-wrap -m-4 place-objects-center w-3/5 h-3/5 mx-auto">
                         {projects.map((project) => (
                             <a
                                 href={project.link}
                                 key={project.image}
-                                className="sm:w-1/2 p-4">
-                                <div className="flex relative w-full h-full place-objects-center">
+                                className="sm:w-1/2 p-2">
+                                <div className="flex relative w-full h-full ">
                                     <img
                                         alt="gallery"
-                                        className="absolute inset-0 w-full h-full object-contain object-center border-2 border-yellow-400 rounded-lg bg-black"
+                                        className="absolute inset-0 w-full h-full object-contain object-center border-2 border-yellow-200 rounded-lg bg-black"
                                         src={project.image}
                                     />
                                     <div className="px-4 py-10 relative  w-full h-full border-4 border-yellow-400 bg-black opacity-0 hover:opacity-100 rounded-lg">

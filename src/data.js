@@ -17,12 +17,12 @@ export const projects = [
         link: "https://nair0lf32.github.io/MedicalCheatSheets/",
     },
     {
-        title: "CTF writeups",
-        subtitle: "my ctf writeups and walkthroughs",
+        title: "zer0ne",
+        subtitle: "my cybersec blog",
         description:
-            "A collection of writeups and walkthroughs for ctf challenges I did during my time learning cybersecurity",
-        image: "https://github.com/nair0lf32/ctfs-writeups/raw/master/pictures/dark_logo.png",
-        link: "https://github.com/nair0lf32/ctfs-writeups",
+            "A personal blog about cybersecurity with my CTF writeups and everything I learnt through my hacking journey",
+        image: "https://nair0lf32.github.io/zer0ne/pictures/dark_logo.png",
+        link: "https://github.com/nair0lf32/zer0ne",
     },
 
 ];

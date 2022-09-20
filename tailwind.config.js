@@ -7,11 +7,11 @@ module.exports = {
       center: true,
 
       padding: {
-        DEFAULT: '0.5rem',
-        sm: '1rem',
-        lg: '2rem',
-        xl: '3rem',
-        '2xl': '4rem',
+        DEFAULT: '0.1rem',
+        sm: '0.5rem',
+        lg: '1rem',
+        xl: '1.5rem',
+        '2xl': '2rem',
       },
 
       margin: {

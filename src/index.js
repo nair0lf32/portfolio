@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import './Styles/index.css';
 import App from './App';
@@ -8,6 +8,7 @@ import { ThemeProvider } from './components/ThemeContext';
 import Background from './components/Background';
 
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
