@@ -13,7 +13,9 @@ export default function Contact() {
                             Contact
                         </h1>
                         <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
-                            Hey! Wanna get in touch? You can find me at the places below.
+                            Hey! Wanna get in touch? You can find me on many places over the internet.
+                            Check my <a href="https://about.me/florianedemessi" className="text-yellow-400 hover:text-yellow-300">
+                                about me page</a> to see most of them. Also you can try the places below.
                         </p>
                     </div>
                 </Fade>
@@ -164,7 +166,7 @@ export default function Contact() {
             </div>
 
             <div className='flex justify-center items-center h-16 bg-black text-white'>
-                <p>2022 copyright © EDEMESSI Florian</p>
+                <p>2024 copyright © EDEMESSI Florian</p>
             </div>
 
 
