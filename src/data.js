@@ -9,6 +9,14 @@ export const projects = [
         link: "https://nair0lf32.github.io/",
     },
     {
+        title: "Nairolf32",
+        subtitle: "My personal website",
+        description:
+            "My first github page using vanilla javascript, boostrap with some jquerry and some custom css",
+        image: "https://nair0lf32.github.io/assets/img/avataaars.svg",
+        link: "https://nair0lf32.github.io/",
+    },
+    {
         title: "Medical Cheatsheets",
         subtitle: "medical pathologies articles",
         description:
