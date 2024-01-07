@@ -1,16 +1,16 @@
 
 export const projects = [
     {
-        title: "Nairolf32",
+        title: "Index",
         subtitle: "My personal website",
         description:
-            "My first github page using vanilla javascript, boostrap with some jquerry and some custom css",
-        image: "https://nair0lf32.github.io/assets/img/avataaars.svg",
-        link: "https://nair0lf32.github.io/",
+            "My website. A piece of art. A mastery of design. All in french",
+        image: "https://nairolf32.com/assets/img/self.png",
+        link: "https://nairolf32.com",
     },
     {
-        title: "Nairolf32",
-        subtitle: "My personal website",
+        title: "Website",
+        subtitle: "My first website",
         description:
             "My first github page using vanilla javascript, boostrap with some jquerry and some custom css",
         image: "https://nair0lf32.github.io/assets/img/avataaars.svg",
