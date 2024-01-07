@@ -14,12 +14,10 @@ export default function About() {
                     </Fade>
                     <Fade left>
                         <p className="mb-4 leading-relaxed ml-4 md:ml-0">
-                            I am a Medical student from Cotonou (Benin), with some passion for software development. I use
-                            multiple technologies, usually whatever does the job, with a personal liking for Python
-                            and Javascript. React and TailwindCSS for instance, mostly for learning purposes.
-                            I am also invested in cybersecurity and good coding practices. I am a solo learner (selfmade club member) always looking for new challenges and
-                            problems to solve (I don't want peace).
-                            This is my portfolio website (as everyone got one now)
+                            I am a Medical student from Cotonou (Benin), with some passion for software development and cybersecurity.
+                            Solo learner, elite member of the "selfmade" club, Curiosity is what define me, and I am always looking
+                            for new challenges and problems to solve (I don't want peace). As everyone got one now, here
+                            is my portfolio website.
                         </p>
                     </Fade>
                     <div className="flex justify-center md:justify-start mb-4">
