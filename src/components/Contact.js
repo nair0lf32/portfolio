@@ -14,7 +14,7 @@ export default function Contact() {
                         </h1>
                         <p className="leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
                             Hey! Wanna get in touch? You can find me on many places over the internet.
-                            Check my <a href="https://about.me/florianedemessi" className="text-yellow-400 hover:text-yellow-300">
+                            Check my <a href="https://about.me/florian_edemessi" className="text-yellow-400 hover:text-yellow-300">
                                 about me page</a> to see most of them. Also you can try the places below.
                         </p>
                     </div>
