@@ -23,3 +23,5 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 static/Assets/Thumbs.db
+public/Thumbs.db
+public/Assets/Thumbs.db
