@@ -14,8 +14,9 @@ export default function Skills() {
                             Skills and Technologies
                         </h1>
                         <p className="sm:text-1xl md:text-2xl xl:text-3xl text-2xl leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-                            Here are the technologies and tools I am comfortable with. What I use to build my projects,
-                            And what I am passionate about.
+                            I generally use various technologies to build my projects, usually whatever does the job
+                            (React and TailwindCSS for instance, mostly for learning purposes).
+                            Here are the technologies and tools I am comfortable with and those that I personally like
                         </p>
                     </div>
                 </Fade>
