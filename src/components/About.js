@@ -1,19 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Fade from 'react-reveal/Fade';
 
 export default function About() {
+    const [imageLoaded, setImageLoaded] = useState(false);
+
     return (
         <section id="about">
             <div className="container mx-auto flex px-4 md:flex-row flex-col items-center sm:text-xl md:text-2xl xl:text-3xl text-lg">
                 <div className="lg:flex-grow md:w-1/2 lg:pr-6 md:pr-4 flex flex-col md:items-start mb-4 md:mb-0 ml-4 md:ml-8">
-                    <Fade top>
-                        <h1 className="title-font sm:text-4xl md:text-5xl xl:text-5xl font-bold mb-2 md:mb-4">
+                    <Fade top when={imageLoaded}>
+                        <h1 className="title-font sm:text-5xl md:text-6xl xl:text-6xl font-bold mb-2 md:mb-4">
                             Hi, I'm Florian
                             <br className="hidden lg:inline-block" /> That medic who codes (somehow).
                         </h1>
                     </Fade>
-                    <Fade left>
-                        <p className="mb-4 leading-relaxed ml-4 md:ml-0">
+                    <Fade left when={imageLoaded}>
+                        <p className="mb-2 leading-relaxed ml-4 md:ml-0">
                             I am a Medical student from Cotonou (Benin), with some passion for software development and cybersecurity.
                             Solo learner, elite member of the "selfmade" club, Curiosity is what define me, and I am always looking
                             for new challenges and problems to solve (I don't want peace). As everyone got one now, here
@@ -39,9 +41,10 @@ export default function About() {
                         <img
                             width="400"
                             height="400"
-                            className="object-cover object-center rounded-full"
+                            className="object-cover object-center rounded-full float-left mr-4 mb-4 md:mb-0"
                             alt="florian edemessi hero"
                             src="https://github.com/nair0lf32/portfolio/blob/3a8ce20ee267defa218f0cff1a5f80c3f5b7daec/public/Assets/self.png?raw=true"
+                            onLoad={() => setImageLoaded(true)}
                             onMouseEnter={e => (e.currentTarget.src = "https://github.com/nair0lf32/portfolio/blob/3a8ce20ee267defa218f0cff1a5f80c3f5b7daec/public/Assets/self2.png?raw=true")}
                             onMouseLeave={e => (e.currentTarget.src = "https://github.com/nair0lf32/portfolio/blob/3a8ce20ee267defa218f0cff1a5f80c3f5b7daec/public/Assets/self.png?raw=true")}
                         />
