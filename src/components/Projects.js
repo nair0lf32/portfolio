@@ -20,7 +20,6 @@ export default function Projects() {
                             displayed here but those are what I consider decent so far.
                             I am still working on some, and most of my work is hosted on my GitHub.
                             I am also still learning and slowly improving so expect me to add more projects here in the future.
-
                             You can click on any card below to check them out!
                         </p>
                     </div>

@@ -1,7 +1,7 @@
 
 export const projects = [
     {
-        title: "Index",
+        title: "nairolf32",
         subtitle: "My personal website",
         description:
             "My website. A piece of art. A mastery of design. All in french",
@@ -9,30 +9,29 @@ export const projects = [
         link: "https://nairolf32.com",
     },
     {
-        title: "Website",
-        subtitle: "My first website",
+        title: "Blog",
+        subtitle: "my blog",
         description:
-            "My first github page using vanilla javascript, boostrap with some jquerry and some custom css",
+            "A personal blog about many things, mostly tech with links to my other blogs",
+        image: "https://blog.nairolf32.com/images/blog-logo.png",
+        link: "https://blog.nairolf32.com/",
+    },
+    {
+        title: "Github index",
+        subtitle: "My github page",
+        description:
+            "My very minimalistic github page",
         image: "https://nair0lf32.github.io/assets/img/avataaars.svg",
         link: "https://nair0lf32.github.io/",
     },
     {
-        title: "Medical Cheatsheets",
+        title: "Medical Cheatsheets (MCS)",
         subtitle: "medical pathologies articles",
         description:
-            "A simple jekyll blog with articles about medical pathologies. the blog is writen in french",
-        image: "https://nair0lf32.github.io/MedicalCheatSheets/assets/images/MCS.png?v=",
-        link: "https://nair0lf32.github.io/MedicalCheatSheets/",
+            "A simple jekyll blog with articles about medical pathologies. the blog is written in french",
+        image: "https://nair0lf32.github.io/mcs/assets/images/MCS.png?v=",
+        link: "https://nair0lf32.github.io/mcs/",
     },
-    {
-        title: "zer0ne",
-        subtitle: "my cybersec blog",
-        description:
-            "A personal blog about cybersecurity with my CTF writeups and everything I learnt through my hacking journey",
-        image: "https://nair0lf32.github.io/zer0ne/pictures/dark_logo.png",
-        link: "https://github.com/nair0lf32/zer0ne",
-    },
-
 ];
 
 
