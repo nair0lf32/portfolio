@@ -26,6 +26,13 @@ module.exports = {
       }
 
     },
+
+    extend: {
+      animation: {
+        'faster-ping': 'ping 0.5s cubic-bezier(0, 0, 0.2, 1) infinite',
+      }
+    }
+
   },
   variants: {
     extend: {},
