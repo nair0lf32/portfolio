@@ -13,7 +13,7 @@ export const projects = [
         subtitle: "my blog",
         description:
             "A personal blog about many things, mostly tech with links to my other blogging platforms",
-        image: "https://blog.nairolf32.com/images/blog-logo.png",
+        image: "https://blog.nairolf32.com/blog-placeholder-about.jpg",
         link: "https://blog.nairolf32.com/",
     },
     {
@@ -29,16 +29,16 @@ export const projects = [
         subtitle: "medical pathologies articles",
         description:
             "A simple jekyll blog with articles about medical pathologies. the blog is written in french",
-        image: "https://nair0lf32.github.io/mcs/assets/images/MCS.png?v=",
-        link: "https://nair0lf32.github.io/mcs/",
+        image: "https://medicrx.github.io/mcs/assets/images/MCS.png",
+        link: "medicrx.github.io/mcs/",
     },
     {
         title: "ZerOne",
         subtitle: "My cybersecurity project.",
         description:
-            "It's a secret. But you can read the blog",
-        image: "https://dev.nairolf32.com/zer0ne-blog/pictures/dark_logo.png",
-        link: "https://dev.nairolf32.com/zer0ne-blog/",
+            "shh, it's a secret",
+        image: "https://github.com/zer0ne-hub/zer0ne-blog/raw/master/static/pictures/dark_logo.png",
+        link: "https://zerone.nairolf32.com/",
     },
     {
         title: "Haxxor",
@@ -48,7 +48,7 @@ export const projects = [
         image: "https://haxxor.nairolf32.com/static/images/haxxorman.png",
         link: "https://haxxor.nairolf32.com/",
     },
-    {
+    /*{
         title: "Forum",
         subtitle: "Another Forum like project",
         description:
@@ -71,7 +71,7 @@ export const projects = [
             "Brought to you by the same team as the medical cheatsheets project, it's a medicine database project written in Meteor.js",
         image: "null",
         link: "https://medibase.eu.meteorapp.com/",
-    },
+    },*/
     {
         title: "Jolero",
         subtitle: "Clothing store in cotonou",
@@ -93,20 +93,16 @@ export const skills = [
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
     },
     {
-        name: "Javascript",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-    },
-    {
-        name: "Php",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+        name: "Typescript",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
     },
     {
         name: "Golang",
         logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
     },
     {
-        name: "Java",
-        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+        name: "Dart",
+        logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
     },
     {
         name: "Android",
