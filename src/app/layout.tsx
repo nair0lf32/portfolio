@@ -22,8 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${vt323.className} antialiased bg-zinc-200 dark:bg-zinc-950 dark:text-white
-        transition-all text-center p-0 m-0 w-full h-full`}>
+        className={`${vt323.className} antialiased bg-stone-300 dark:bg-stone-950 dark:text-white
+        transition-all text-center`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {children}
         </ThemeProvider>

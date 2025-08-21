@@ -20,10 +20,10 @@ export default function Skills() {
             >
 
 
-                    <div className="text-center mb-12">
-                        <Wrench className="text-4xl inline-block mb-4" />
+                    <div className="mb-12">
+                        <Wrench className="w-16 h-16 inline-block mb-4 text-lime-950 dark:text-lime-400" />
 
-                        <h1 className=" text-center sm:text-4xl text-3xl font-bold title-font mb-4">
+                        <h1 className="text-lime-950 dark:text-lime-400 sm:text-4xl text-3xl font-bold title-font mb-4">
                             Skills and Technologies
                         </h1>
                         <p className="sm:text-1xl md:text-2xl xl:text-3xl text-2xl leading-none xl:w-2/4 lg:w-3/4 mx-auto">
@@ -37,7 +37,8 @@ export default function Skills() {
                     <div className="flex flex-wrap lg:w-2/3 sm:mx-auto sm:mb-2 -mx-2">
                         {skills.map((skill) => (
                             <div key={skill.name} className="p-2 sm:w-1/2 w-50">
-                                <div className="bg-slate-600 dark:bg-slate-800 rounded-md flex p-4 h-full items-center">
+                                <div className="bg-slate-600 dark:bg-slate-800 rounded flex p-4 h-full items-center
+                                shadow-lg shadow-stone-950 hover:shadow-none">
                                     <Image
                                         width="50"
                                         height="50"

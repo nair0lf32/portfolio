@@ -2,7 +2,6 @@
 import { motion } from "motion/react";
 import React, { useState } from "react";
 import { Ghost } from "lucide-react";
-import Image from "next/image";
 import { Button } from "@/components/ui/button"
 import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -22,7 +21,8 @@ export default function About() {
                 <div className="relative inline-flex flex-col md:flex-row items-center md:items-start gap-1">
                     <div className="relative flex">
                         {/* Pulsing Aura */}
-                        <span className="absolute inline-flex inset-0 rounded-full bg-green-500 bg-opacity-20
+                        <span className="absolute inline-flex inset-0 rounded-full bg-lime-200
+                        bg-opacity-20
                         w-50 animate-ping delay-5000"></span>
                         {/* Hero Image */}
                         <div className="relative z-10"
@@ -35,12 +35,13 @@ export default function About() {
 
                     <Avatar className="size-50 relative z-10 object-cover object-center
                                 rounded-full cursor-pointer
-                                border-green-800 shadow-md
-                                hover:border-green-500">
+                                border-lime-200 shadow-md
+                                hover:border-lime-200">
                             <AvatarImage
                                 alt = "florian edemessi hero"
                                 className="relative z-10 object-cover object-center rounded-full cursor-pointer
-                                border-4 border-green-800 shadow-md hover:border-green-500"
+                                border-4 border-lime-950 shadow-md hover:border-lime-300 bg-stone-950
+                                dark:bg-stone-400"
                                 src={
                                     isImageToggled
                                         ? "/self2.png"
@@ -57,7 +58,7 @@ export default function About() {
                     {/* Text Content */}
                     <div className="max-w-4xl">
                         {/* Title */}
-                        <motion.h1 className="text-4xl font-bold mb-6"
+                        <motion.h1 className="text-lime-950 dark:text-lime-400 text-xl md:text-4xl xl:text-6xl font-bold mb-6"
                             initial={{ opacity: 0 }}
                             whileInView={{ opacity: 1 }}
                             animate={{
@@ -65,8 +66,9 @@ export default function About() {
                                 duration: 0.5,
                                 ease: "easeInOut",
                             },
-                        }}>
-                        Hello world! I&apos;m nairolf32<Ghost className="inline-block" />
+                            }}>
+                        <Ghost className="inline-block w-16 h-16 mr-2" />
+                        Hello world! I&apos;m nairolf32
                                 <br /> That medic who codes (somehow)
                         </motion.h1>
 
@@ -91,13 +93,13 @@ export default function About() {
                         {/* Buttons */}
                         <div className="flex justify-center md:justify-start gap-4">
                             <Button
-                                className="text-white bg-green-500 px-4 py-2
-                                text-sm md:text-base rounded hover:bg-green-600
+                                className="border shadow-lg text-white bg-lime-500 px-4 py-2
+                                text-sm md:text-base rounded hover:bg-lime-600
                                 transition-transform transform hover:scale-105">
                                 <Link href="#contact">Contact Me</Link>
                             </Button>
                             <Button
-                                className="text-gray-800 bg-gray-200 px-4 py-2
+                                className="border shadow-lg text-gray-800 bg-gray-200 px-4 py-2
                                 text-sm md:text-base rounded hover:bg-gray-300
                                 transition-transform transform hover:scale-105">
                                 <Link href="#projects">See what I do</Link>

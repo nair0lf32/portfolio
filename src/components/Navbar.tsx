@@ -11,11 +11,11 @@ import Link from 'next/link';
 export default function Navbar() {
     return (
 
-    <header className="sticky top-0 z-40 w-full border-b bg-background">
-    <div className="container flex h-auto items-center justify-between px-2 md:px-4">
+    <header className="container flex items-center justify-between px-1 md:px-2
+    sticky top-0 py-2 z-40 w-full border-b bg-background shadow-sm">
         <Link href="#about"
-                    className="flex items-center gap-1 text-2xl font-bold
-                                hover:text-green-400" prefetch={false}>
+                    className="flex items-center text-xl font-bold
+                                hover:text-lime-400" prefetch={false}>
             EDEMESSI Florian
         </Link>
         <NavigationMenu>
@@ -23,8 +23,8 @@ export default function Navbar() {
             <NavigationMenuItem>
             <NavigationMenuLink
                 href="#projects"
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md
-                bg-background px-4 py-2 text-xl font-medium transition-colors
+                className="group inline-flex h-9 items-center justify-center rounded-md
+                px-4 py-2 text-md font-medium transition-colors
                 hover:bg-accent
                 hover:text-accent-foreground
                 focus:bg-accent focus:text-accent-foreground
@@ -36,8 +36,8 @@ export default function Navbar() {
             <NavigationMenuItem>
             <NavigationMenuLink
                 href="#skills"
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md
-                bg-background px-4 py-2 text-xl font-medium transition-colors
+                className="group inline-flex h-9 items-center justify-center rounded-md
+                px-4 py-2 text-md font-medium transition-colors
                 hover:bg-accent
                 hover:text-accent-foreground
                 focus:bg-accent focus:text-accent-foreground
@@ -49,8 +49,8 @@ export default function Navbar() {
             <NavigationMenuItem>
             <NavigationMenuLink
                 href="#contact"
-                className="group inline-flex h-9 w-max items-center justify-center rounded-md
-                bg-background px-4 py-2 text-xl font-medium transition-colors
+                className="group inline-flex h-9 items-center justify-center rounded-md
+                px-4 py-2 text-md font-medium transition-colors
                 hover:bg-accent
                 hover:text-accent-foreground
                 focus:bg-accent focus:text-accent-foreground
@@ -64,6 +64,5 @@ export default function Navbar() {
             </NavigationMenuItem>
         </NavigationMenuList>
         </NavigationMenu>
-    </div>
     </header>
 )}

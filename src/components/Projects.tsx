@@ -18,7 +18,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Projects() {
     return (
-        <section id="projects" className="body-font">
+        <section id="projects">
             <motion.div
                 className="container px-4 py-10 mx-auto sm:text-xl md:text-2xl xl:text-3xl text-lg"
                 initial={{ opacity: 0 }}
@@ -30,9 +30,9 @@ export default function Projects() {
                     },
                 }}
             >
-                <div className="flex flex-col w-full mb-20">
-                    <Code className="mx-auto inline-block w-10 mb-4" />
-                    <h1 className="text-center sm:text-4xl text-3xl font-bold title-font mb-4">
+                <div>
+                    <Code className="w-16 h-16 inline-block mb-4 text-lime-950 dark:text-lime-400" />
+                    <h1 className="text-lime-950 dark:text-lime-400 sm:text-4xl text-3xl font-bold title-font mb-4">
                         Projects
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-none sm:text-xl md:text-2xl xl:text-3xl text-lg">
@@ -46,7 +46,7 @@ export default function Projects() {
 
                 <div className="grid grid-cols-3 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-16">
                     {projects.map((project, index) => (
-                        <Card key={index}>
+                        <Card key={index} className="shadow-lg hover:shadow-stone-950">
                             <CardHeader>
                                 <CardTitle>{project.title}</CardTitle>
                                 <CardDescription>{project.description}</CardDescription>

@@ -16,24 +16,25 @@ export default function Contact() {
                 },
             }}>
 
-                    <div className="text-center mb-20">
-                        <Mail className="inline-block mb-4" />
-                        <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4">
+                    <div className="mb-20 ">
+                        <Mail className="w-16 h-16 inline-block mb-4 text-lime-950 dark:text-lime-400" />
+                        <h1 className="sm:text-4xl text-3xl font-bold title-font mb-4 text-lime-950 dark:text-lime-400">
                             Contact
                         </h1>
                     <p className="leading-none xl:w-2/4 lg:w-3/4
                         mx-auto sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
                             Hey! Wanna get in touch? You can find me on many places over the internet.
-                            Check my <a href="https://about.me/florian_edemessi" className="text-yellow-400 hover:text-yellow-300">
+                        Check my <a href="https://about.me/florian_edemessi" className="text-lime-400
+                            hover:text-lime-300">
                                 about me page</a> to see most of them. Also you can try the places below.
                         </p>
                     </div>
 
                     <div className="container px-5 py-10 mx-auto place-content-center text-center sm:text-1xl md:text-2x1 xl:text-3x1 text-2xl">
-                        <h6 className="uppercase font-semibold mb-4 flex justify-center">
+                        <h6 className="uppercase font-semibold mb-1 flex justify-center text-lime-950 dark:text-lime-400">
                             Address
                         </h6>
-                        <p className="flex items-center justify-center mb-4">
+                        <p className="flex items-center justify-center">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="home"
                                 className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
                                 <path fill="currentColor"
@@ -42,7 +43,7 @@ export default function Contact() {
                             </svg>
                             Street 1051, c/1002, Aijedo 4, Cotonou, Benin BJ
                         </p>
-                        <p className="flex items-center justify-center mb-4">
+                        <p className="flex items-center justify-center">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
                                 className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512">
@@ -52,7 +53,7 @@ export default function Contact() {
                             </svg>
                             florianedem@gmail.com
                         </p>
-                        <p className="flex items-center justify-center mb-4">
+                        <p className="flex items-center justify-center">
                             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
                                 className="w-4 mr-4" role="img" xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 512 512">
@@ -174,7 +175,7 @@ export default function Contact() {
                     </motion.div>
                 <div className='flex justify-center items-center h-16 w-full'>
                     <p>2024 copyright ©
-                        <a href="https://nairolf32.com" className="hover:text-green-300">
+                        <a href="https://nairolf32.com" className="hover:text-lime-300">
                             EDEMESSI Florian &quot;nairolf32&quot;</a>
                     </p>
                 </div>
