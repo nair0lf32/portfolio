@@ -53,7 +53,7 @@ export const projects = [
         subtitle: "Another Forum like project",
         description:
             "A special forum for my friends and me. In PHP/Laravel and is very not finished yet.",
-        image: "",
+        image: "null",
         link: "https://forum.nairolf32.com/",
     },
     {
@@ -61,15 +61,15 @@ export const projects = [
         subtitle: "A simple e-learning platform project",
         description:
             "Will be alive soon. It's a simple e-learning platform project written in react-native",
-        image: "",
-        link: "",
+        image: "null",
+        link: "null",
     },
     {
         title: "Medibase",
         subtitle: "A medicine database project",
         description:
             "Brought to you by the same team as the medical cheatsheets project, it's a medicine database project written in Meteor.js",
-        image: "",
+        image: "null",
         link: "https://medibase.eu.meteorapp.com/",
     },
     {
