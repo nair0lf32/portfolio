@@ -11,13 +11,15 @@ Technologies used:
 -  [motion](https://motion.framer.com/) (for animations)
 -  [lucide](https://lucide.dev/) (for icons)
 
+migrated to pnpm as package manager
+
 ## usage (React js project scripts)
 
 In the project directory, you can run:
 
-- `npm install` to get the dependencies
-- `npm run dev` to start the development server. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload on changes and errors are displayed in the console
-- `npm run build` Builds the app for production
+- `pnpm install` to get the dependencies
+- `pnpm run dev` to start the development server. Open [http://localhost:3000](http://localhost:3000) to view it in your browser. The page will reload on changes and errors are displayed in the console
+- `pnpm run build` Builds the app for production
 
 ## :rocket: Deployment
 
